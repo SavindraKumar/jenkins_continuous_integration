@@ -3,21 +3,21 @@ pipeline {
     stages {
         stage('Static Analysis') { 
             steps {
-                echo "Static Analysis"
+                echo 'Static Analysis'
             }
         stage('Build') { 
             steps {
-                echo "Build"
+                echo 'Build'
             }
         }
         stage('Unit Test') { 
             steps {
-                echo "Unit Test"
+                echo 'Unit Test'
             }
         }
         stage('Code Coverage') { 
             steps {
-                echo "Code Coverage"
+                echo 'Code Coverage'
             }
         }
     }
