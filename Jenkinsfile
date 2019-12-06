@@ -2,7 +2,7 @@ pipeline {
     agent any 
     
     environment {
-      IAR_TOOL_PATH = "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\common\\bin:$IAR_TOOL_PATH"
+      IAR_TOOL_PATH = "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\common\\bin"
     }
     
     stages {
