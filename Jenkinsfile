@@ -2,10 +2,18 @@ pipeline {
    agent any
 
    stages {
-      stage('Hello') {
+      stage('static_analysis') {
          steps {
-            echo 'Hello World'
+            echo 'Static analysis'
          }
       }
+      
+   stages {
+      stage('build') {
+         steps {
+            echo 'Build'
+         }
+      }      
+      
    }
 }
