@@ -5,6 +5,7 @@ pipeline {
             steps {
                 echo 'Static Analysis'
             }
+        }
         stage('Build') { 
             steps {
                 echo 'Build'
