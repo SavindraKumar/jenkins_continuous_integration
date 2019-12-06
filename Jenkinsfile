@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Build') { 
             steps {
-                gcc main.c -o main
+                echo 'Build'
             }
         }
         stage('Unit Test') { 
